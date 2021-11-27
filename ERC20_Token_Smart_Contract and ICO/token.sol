@@ -32,7 +32,7 @@ contract Cryptos is ERC20Interface{
          //balance[0x1111....]=100; -> This is how the contract stores the tokens of each address 
 
         mapping(address => mapping(address=> uint))  allowed;
-        
+        //comment
         //0x1111....(owner)  allows 0x2222.... (the spender) ------ 100 tokens
         //allowed[0x111][0x222] = 100;
   
